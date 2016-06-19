@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "VoiceView.h"
+#import "UIView+AutoLayout.h"
+@interface ViewController (){
+    VoiceView *_voice;
 
-@interface ViewController ()
+}
+- (IBAction)show:(id)sender;
 
 @end
 
@@ -17,6 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    VoiceView *voice=[VoiceView sharedVoiceView];
+    [self.view addSubview:voice];
+    voice.hidden=YES;
+    [voice autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:voice.superview];
+    [voice autoPinEdge:ALEdgeRight toEdge:ALEdgeRight ofView:voice.superview];
+    [voice autoPinEdge:ALEdgeBottom toEdge:ALEdgeBottom ofView:voice.superview];
+    [voice autoSetDimension:ALDimensionHeight toSize:200];
+    _voice=voice;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +37,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)show:(id)sender {
+    _voice.hidden=NO;
+    
+}
 @end

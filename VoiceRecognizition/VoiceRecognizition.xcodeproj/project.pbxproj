@@ -14,6 +14,11 @@
 		DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07E61D17010F00E14870 /* Main.storyboard */; };
 		DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07E91D17010F00E14870 /* Assets.xcassets */; };
 		DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07EB1D17010F00E14870 /* LaunchScreen.storyboard */; };
+		DC7A189E1D1708B70072BE6B /* VoiceRecognizitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */; };
+		DC7A189F1D1708B70072BE6B /* VoiceRecognizitionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */; };
+		DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */; };
+		DC7A18A91D170EA20072BE6B /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A18A81D170EA20072BE6B /* VoiceView.m */; };
+		DC7A18AB1D1710E80072BE6B /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7A18AA1D1710E80072BE6B /* VoiceView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,14 @@
 		DC5D07E91D17010F00E14870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5D07EC1D17010F00E14870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5D07EE1D17010F00E14870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7A189B1D1708B70072BE6B /* VoiceRecognizitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizitionController.h; sourceTree = "<group>"; };
+		DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizitionController.m; sourceTree = "<group>"; };
+		DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceRecognizitionController.xib; sourceTree = "<group>"; };
+		DC7A18A41D170CE50072BE6B /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		DC7A18A71D170EA20072BE6B /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
+		DC7A18A81D170EA20072BE6B /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
+		DC7A18AA1D1710E80072BE6B /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,8 @@
 		DC5D07DC1D17010F00E14870 /* VoiceRecognizition */ = {
 			isa = PBXGroup;
 			children = (
+				DC7A18A31D170CC40072BE6B /* Classes */,
+				DC7A189A1D17087C0072BE6B /* Voice */,
 				DC5D07E01D17010F00E14870 /* AppDelegate.h */,
 				DC5D07E11D17010F00E14870 /* AppDelegate.m */,
 				DC5D07E31D17010F00E14870 /* ViewController.h */,
@@ -101,6 +116,52 @@
 				DC5D07DE1D17010F00E14870 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC7A189A1D17087C0072BE6B /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A18A21D170A6E0072BE6B /* model */,
+				DC7A18A11D170A650072BE6B /* view */,
+				DC7A18A01D170A440072BE6B /* controller */,
+			);
+			name = Voice;
+			sourceTree = "<group>";
+		};
+		DC7A18A01D170A440072BE6B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A189B1D1708B70072BE6B /* VoiceRecognizitionController.h */,
+				DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */,
+				DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		DC7A18A11D170A650072BE6B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A18A71D170EA20072BE6B /* VoiceView.h */,
+				DC7A18A81D170EA20072BE6B /* VoiceView.m */,
+				DC7A18AA1D1710E80072BE6B /* VoiceView.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		DC7A18A21D170A6E0072BE6B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DC7A18A31D170CC40072BE6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A18A41D170CE50072BE6B /* UIView+AutoLayout.h */,
+				DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +226,8 @@
 			files = (
 				DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */,
 				DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */,
+				DC7A189F1D1708B70072BE6B /* VoiceRecognizitionController.xib in Resources */,
+				DC7A18AB1D1710E80072BE6B /* VoiceView.xib in Resources */,
 				DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */,
+				DC7A18A91D170EA20072BE6B /* VoiceView.m in Sources */,
 				DC5D07E51D17010F00E14870 /* ViewController.m in Sources */,
 				DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */,
 				DC5D07DF1D17010F00E14870 /* main.m in Sources */,
+				DC7A189E1D1708B70072BE6B /* VoiceRecognizitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
