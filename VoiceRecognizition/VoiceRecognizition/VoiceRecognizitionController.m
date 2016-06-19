@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
+    //123;
     
 }
 
