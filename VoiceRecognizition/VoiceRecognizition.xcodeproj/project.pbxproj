@@ -8,23 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		D6A7AAA2764EE8287DE697F0 /* libPods-VoiceRecognizition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */; };
+		DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */; };
+		DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D981D22AFE400389C8D /* VoiceWebJsCore.m */; };
+		DC414DA01D22B03400389C8D /* langueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D9C1D22B03400389C8D /* langueButton.m */; };
+		DC414DA11D22B03400389C8D /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D9E1D22B03400389C8D /* VoiceView.m */; };
+		DC414DA21D22B03400389C8D /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC414D9F1D22B03400389C8D /* VoiceView.xib */; };
+		DC414DA41D22B0C000389C8D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC414DA31D22B0C000389C8D /* JavaScriptCore.framework */; };
 		DC5D07DF1D17010F00E14870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07DE1D17010F00E14870 /* main.m */; };
 		DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07E11D17010F00E14870 /* AppDelegate.m */; };
 		DC5D07E51D17010F00E14870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07E41D17010F00E14870 /* ViewController.m */; };
 		DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07E61D17010F00E14870 /* Main.storyboard */; };
 		DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07E91D17010F00E14870 /* Assets.xcassets */; };
 		DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D07EB1D17010F00E14870 /* LaunchScreen.storyboard */; };
-		DC7A189E1D1708B70072BE6B /* VoiceRecognizitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */; };
-		DC7A189F1D1708B70072BE6B /* VoiceRecognizitionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */; };
 		DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */; };
-		DC7A18A91D170EA20072BE6B /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A18A81D170EA20072BE6B /* VoiceView.m */; };
-		DC7A18AB1D1710E80072BE6B /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7A18AA1D1710E80072BE6B /* VoiceView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20BC402A7B4C42CE777621AD /* Pods-VoiceRecognizition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognizition.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognizition/Pods-VoiceRecognizition.release.xcconfig"; sourceTree = "<group>"; };
 		25F283FE35E2DB2D8E32006B /* Pods-VoiceRecognizition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognizition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognizition/Pods-VoiceRecognizition.debug.xcconfig"; sourceTree = "<group>"; };
 		321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognizition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC414D931D22AF8300389C8D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		DC414D971D22AFE400389C8D /* VoiceWebJsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceWebJsCore.h; sourceTree = "<group>"; };
+		DC414D981D22AFE400389C8D /* VoiceWebJsCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceWebJsCore.m; sourceTree = "<group>"; };
+		DC414D9B1D22B03400389C8D /* langueButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = langueButton.h; sourceTree = "<group>"; };
+		DC414D9C1D22B03400389C8D /* langueButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = langueButton.m; sourceTree = "<group>"; };
+		DC414D9D1D22B03400389C8D /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
+		DC414D9E1D22B03400389C8D /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
+		DC414D9F1D22B03400389C8D /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
+		DC414DA31D22B0C000389C8D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DC5D07DA1D17010F00E14870 /* VoiceRecognizition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecognizition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5D07DE1D17010F00E14870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC5D07E01D17010F00E14870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,14 +47,8 @@
 		DC5D07E91D17010F00E14870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5D07EC1D17010F00E14870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5D07EE1D17010F00E14870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC7A189B1D1708B70072BE6B /* VoiceRecognizitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizitionController.h; sourceTree = "<group>"; };
-		DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizitionController.m; sourceTree = "<group>"; };
-		DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceRecognizitionController.xib; sourceTree = "<group>"; };
 		DC7A18A41D170CE50072BE6B /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
-		DC7A18A71D170EA20072BE6B /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
-		DC7A18A81D170EA20072BE6B /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
-		DC7A18AA1D1710E80072BE6B /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC414DA41D22B0C000389C8D /* JavaScriptCore.framework in Frameworks */,
 				D6A7AAA2764EE8287DE697F0 /* libPods-VoiceRecognizition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +67,7 @@
 		18B7F1C9257C16988EDCAB7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC414DA31D22B0C000389C8D /* JavaScriptCore.framework */,
 				321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */,
 			);
 			name = Frameworks;
@@ -72,6 +80,36 @@
 				20BC402A7B4C42CE777621AD /* Pods-VoiceRecognizition.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC414D921D22AF8300389C8D /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DC414D931D22AF8300389C8D /* UIView+AutoLayout.h */,
+				DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
+			sourceTree = "<group>";
+		};
+		DC414D961D22AFE400389C8D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DC414D971D22AFE400389C8D /* VoiceWebJsCore.h */,
+				DC414D981D22AFE400389C8D /* VoiceWebJsCore.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DC414D9A1D22B03400389C8D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DC414D9B1D22B03400389C8D /* langueButton.h */,
+				DC414D9C1D22B03400389C8D /* langueButton.m */,
+				DC414D9D1D22B03400389C8D /* VoiceView.h */,
+				DC414D9E1D22B03400389C8D /* VoiceView.m */,
+				DC414D9F1D22B03400389C8D /* VoiceView.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		DC5D07D11D17010F00E14870 = {
@@ -121,38 +159,11 @@
 		DC7A189A1D17087C0072BE6B /* Voice */ = {
 			isa = PBXGroup;
 			children = (
-				DC7A18A21D170A6E0072BE6B /* model */,
-				DC7A18A11D170A650072BE6B /* view */,
-				DC7A18A01D170A440072BE6B /* controller */,
+				DC414D9A1D22B03400389C8D /* view */,
+				DC414D961D22AFE400389C8D /* Class */,
+				DC414D921D22AF8300389C8D /* UIView+AutoLayout */,
 			);
 			name = Voice;
-			sourceTree = "<group>";
-		};
-		DC7A18A01D170A440072BE6B /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				DC7A189B1D1708B70072BE6B /* VoiceRecognizitionController.h */,
-				DC7A189C1D1708B70072BE6B /* VoiceRecognizitionController.m */,
-				DC7A189D1D1708B70072BE6B /* VoiceRecognizitionController.xib */,
-			);
-			name = controller;
-			sourceTree = "<group>";
-		};
-		DC7A18A11D170A650072BE6B /* view */ = {
-			isa = PBXGroup;
-			children = (
-				DC7A18A71D170EA20072BE6B /* VoiceView.h */,
-				DC7A18A81D170EA20072BE6B /* VoiceView.m */,
-				DC7A18AA1D1710E80072BE6B /* VoiceView.xib */,
-			);
-			name = view;
-			sourceTree = "<group>";
-		};
-		DC7A18A21D170A6E0072BE6B /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = model;
 			sourceTree = "<group>";
 		};
 		DC7A18A31D170CC40072BE6B /* Classes */ = {
@@ -226,9 +237,8 @@
 			files = (
 				DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */,
 				DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */,
-				DC7A189F1D1708B70072BE6B /* VoiceRecognizitionController.xib in Resources */,
-				DC7A18AB1D1710E80072BE6B /* VoiceView.xib in Resources */,
 				DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */,
+				DC414DA21D22B03400389C8D /* VoiceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */,
+				DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */,
+				DC414DA01D22B03400389C8D /* langueButton.m in Sources */,
 				DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */,
-				DC7A18A91D170EA20072BE6B /* VoiceView.m in Sources */,
 				DC5D07E51D17010F00E14870 /* ViewController.m in Sources */,
 				DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */,
 				DC5D07DF1D17010F00E14870 /* main.m in Sources */,
-				DC7A189E1D1708B70072BE6B /* VoiceRecognizitionController.m in Sources */,
+				DC414DA11D22B03400389C8D /* VoiceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
