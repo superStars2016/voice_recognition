@@ -14,6 +14,8 @@
 		DC414DA11D22B03400389C8D /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D9E1D22B03400389C8D /* VoiceView.m */; };
 		DC414DA21D22B03400389C8D /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC414D9F1D22B03400389C8D /* VoiceView.xib */; };
 		DC414DA41D22B0C000389C8D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC414DA31D22B0C000389C8D /* JavaScriptCore.framework */; };
+		DC414DA71D22BA0700389C8D /* langugePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414DA61D22BA0700389C8D /* langugePickView.m */; };
+		DC414DA91D22BA1C00389C8D /* langugePickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC414DA81D22BA1C00389C8D /* langugePickView.xib */; };
 		DC5D07DF1D17010F00E14870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07DE1D17010F00E14870 /* main.m */; };
 		DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07E11D17010F00E14870 /* AppDelegate.m */; };
 		DC5D07E51D17010F00E14870 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5D07E41D17010F00E14870 /* ViewController.m */; };
@@ -37,6 +39,9 @@
 		DC414D9E1D22B03400389C8D /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
 		DC414D9F1D22B03400389C8D /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
 		DC414DA31D22B0C000389C8D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DC414DA51D22BA0700389C8D /* langugePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = langugePickView.h; sourceTree = "<group>"; };
+		DC414DA61D22BA0700389C8D /* langugePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = langugePickView.m; sourceTree = "<group>"; };
+		DC414DA81D22BA1C00389C8D /* langugePickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = langugePickView.xib; sourceTree = "<group>"; };
 		DC5D07DA1D17010F00E14870 /* VoiceRecognizition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecognizition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5D07DE1D17010F00E14870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC5D07E01D17010F00E14870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +113,9 @@
 				DC414D9D1D22B03400389C8D /* VoiceView.h */,
 				DC414D9E1D22B03400389C8D /* VoiceView.m */,
 				DC414D9F1D22B03400389C8D /* VoiceView.xib */,
+				DC414DA51D22BA0700389C8D /* langugePickView.h */,
+				DC414DA61D22BA0700389C8D /* langugePickView.m */,
+				DC414DA81D22BA1C00389C8D /* langugePickView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 				TargetAttributes = {
 					DC5D07D91D17010F00E14870 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HE3WF58WL2;
 					};
 				};
 			};
@@ -237,6 +246,7 @@
 			files = (
 				DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */,
 				DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */,
+				DC414DA91D22BA1C00389C8D /* langugePickView.xib in Resources */,
 				DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */,
 				DC414DA21D22B03400389C8D /* VoiceView.xib in Resources */,
 			);
@@ -304,6 +314,7 @@
 				DC5D07E51D17010F00E14870 /* ViewController.m in Sources */,
 				DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */,
 				DC5D07DF1D17010F00E14870 /* main.m in Sources */,
+				DC414DA71D22BA0700389C8D /* langugePickView.m in Sources */,
 				DC414DA11D22B03400389C8D /* VoiceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +428,13 @@
 			baseConfigurationReference = 25F283FE35E2DB2D8E32006B /* Pods-VoiceRecognizition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VoiceRecognizition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaobo.com.VoiceRecognizition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -429,10 +443,13 @@
 			baseConfigurationReference = 20BC402A7B4C42CE777621AD /* Pods-VoiceRecognizition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VoiceRecognizition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaobo.com.VoiceRecognizition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -15,6 +15,7 @@
     JSContext *_context;
     
 }
+- (IBAction)btnClickShow:(id)sender;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property(strong,nonatomic) VoiceView *voiceView;
 @end
@@ -24,15 +25,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    VoiceView *voice=[VoiceView sharedVoiceView];
+    _voiceView=voice;
+    [self.view addSubview:voice];
+    // voice.frame=CGRectMake(0, self.view.bounds.size.height, self.view.bounds.size.width, 200);
+    //[voice autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
+    [voice autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:voice.superview];
+    [voice autoPinEdge:ALEdgeRight toEdge:ALEdgeRight ofView:voice.superview];
+    [voice autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:voice.superview];
+    [voice autoSetDimension:ALDimensionHeight toSize:285];
     
-    //注册jsCore
-    _context=[self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    
-    VoiceWebJsCore *webJsCore= [[VoiceWebJsCore alloc] init];
-    webJsCore.delegate=self;
-    _context[@"jscore"]=webJsCore;
-    NSString *alertJS=@"jscore.showVoiceView()"; //准备执行的js代码
-    [_context evaluateScript:alertJS];
+    [voice layoutIfNeeded];//这句代码是让layout立即布局
+   
     
     //[self performSelector:@selector(ends) withObject:nil afterDelay:3];
     
@@ -46,20 +50,7 @@
     [_context evaluateScript:alertJSs];
 }
 -(void)showVoiceView{
-    VoiceView *voice=[VoiceView sharedVoiceView];
-    _voiceView=voice;
-    [self.view addSubview:voice];
-    // voice.frame=CGRectMake(0, self.view.bounds.size.height, self.view.bounds.size.width, 200);
-    //[voice autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
-    [voice autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:voice.superview];
-    [voice autoPinEdge:ALEdgeRight toEdge:ALEdgeRight ofView:voice.superview];
-    [voice autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:voice.superview];
-    [voice autoSetDimension:ALDimensionHeight toSize:285];
-    
-    [voice layoutIfNeeded];//这句代码是让layout立即布局
-    //CGFloat h=voice.bounds.size.height;
-    
-    [voice show];
+    [_voiceView show];
     
 }
 -(void)dissMissVoiceView{
@@ -72,4 +63,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnClickShow:(id)sender {
+    //注册jsCore
+    _context=[self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    
+    VoiceWebJsCore *webJsCore= [[VoiceWebJsCore alloc] init];
+    webJsCore.delegate=self;
+    _context[@"jscore"]=webJsCore;
+    NSString *alertJS=@"jscore.showVoiceView()"; //准备执行的js代码
+    [_context evaluateScript:alertJS];
+}
 @end

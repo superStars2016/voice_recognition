@@ -82,7 +82,9 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="closeBtn" destination="FIt-ff-LV8" id="hNn-2Z-jwq"/>
+                <outlet property="inforLabel" destination="rJg-4T-XP2" id="7Ep-Lu-fYb"/>
                 <outlet property="langugeBtn" destination="ug5-eo-HHF" id="W5X-lY-OwX"/>
+                <outlet property="voiceBtn" destination="HRd-1z-ULb" id="6OP-sR-f80"/>
             </connections>
             <point key="canvasLocation" x="370" y="366.5"/>
         </view>
