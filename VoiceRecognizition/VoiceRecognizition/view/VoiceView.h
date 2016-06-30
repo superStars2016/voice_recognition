@@ -32,5 +32,5 @@
 
 @protocol VoiceViewDelegate <NSObject>
 @required
--(void)VoiceView:(VoiceView *)voiceView didFinishedVoiceRegenizeWithDate:(NSString *)strData;
+-(void)VoiceView:(VoiceView *)voiceView didFinishedVoiceRegenizeWithData:(NSString *)strData;
 @end
