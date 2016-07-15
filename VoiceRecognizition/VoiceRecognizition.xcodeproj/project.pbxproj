@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A02B1351D37A77500683C71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B1371D37A77500683C71 /* Localizable.strings */; };
+		4AA44F701D37AA2A0042BC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA44F721D37AA2A0042BC46 /* InfoPlist.strings */; };
+		4AA6A6B31D38E5EC006B5394 /* photosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A6B21D38E5EC006B5394 /* photosViewController.m */; };
 		D6A7AAA2764EE8287DE697F0 /* libPods-VoiceRecognizition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */; };
 		DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */; };
 		DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D981D22AFE400389C8D /* VoiceWebJsCore.m */; };
@@ -29,6 +32,15 @@
 		20BC402A7B4C42CE777621AD /* Pods-VoiceRecognizition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognizition.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognizition/Pods-VoiceRecognizition.release.xcconfig"; sourceTree = "<group>"; };
 		25F283FE35E2DB2D8E32006B /* Pods-VoiceRecognizition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognizition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognizition/Pods-VoiceRecognizition.debug.xcconfig"; sourceTree = "<group>"; };
 		321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognizition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A02B1361D37A77500683C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A02B1391D37A78E00683C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A02B13A1D37A79F00683C71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4AA44F711D37AA2A0042BC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AA44F731D37AA2C0042BC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AA44F741D37AA2E0042BC46 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4AA44F761D37ADFE0042BC46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA6A6B11D38E5EC006B5394 /* photosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photosViewController.h; sourceTree = "<group>"; };
+		4AA6A6B21D38E5EC006B5394 /* photosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = photosViewController.m; sourceTree = "<group>"; };
 		DC414D931D22AF8300389C8D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		DC414D971D22AFE400389C8D /* VoiceWebJsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceWebJsCore.h; sourceTree = "<group>"; };
@@ -51,7 +63,6 @@
 		DC5D07E71D17010F00E14870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC5D07E91D17010F00E14870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5D07EC1D17010F00E14870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC5D07EE1D17010F00E14870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7A18A41D170CE50072BE6B /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		DC7A18A51D170CE50072BE6B /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,9 +159,10 @@
 				DC5D07E31D17010F00E14870 /* ViewController.h */,
 				DC5D07E41D17010F00E14870 /* ViewController.m */,
 				DC5D07E61D17010F00E14870 /* Main.storyboard */,
+				4AA6A6B11D38E5EC006B5394 /* photosViewController.h */,
+				4AA6A6B21D38E5EC006B5394 /* photosViewController.m */,
 				DC5D07E91D17010F00E14870 /* Assets.xcassets */,
 				DC5D07EB1D17010F00E14870 /* LaunchScreen.storyboard */,
-				DC5D07EE1D17010F00E14870 /* Info.plist */,
 				DC5D07DD1D17010F00E14870 /* Supporting Files */,
 			);
 			path = VoiceRecognizition;
@@ -159,7 +171,10 @@
 		DC5D07DD1D17010F00E14870 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AA44F761D37ADFE0042BC46 /* Info.plist */,
 				DC5D07DE1D17010F00E14870 /* main.m */,
+				4A02B1371D37A77500683C71 /* Localizable.strings */,
+				4AA44F721D37AA2A0042BC46 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -226,8 +241,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
+				"zh-Hans",
 			);
 			mainGroup = DC5D07D11D17010F00E14870;
 			productRefGroup = DC5D07DB1D17010F00E14870 /* Products */;
@@ -245,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5D07ED1D17010F00E14870 /* LaunchScreen.storyboard in Resources */,
+				4AA44F701D37AA2A0042BC46 /* InfoPlist.strings in Resources */,
+				4A02B1351D37A77500683C71 /* Localizable.strings in Resources */,
 				DC5D07EA1D17010F00E14870 /* Assets.xcassets in Resources */,
 				DC414DA91D22BA1C00389C8D /* langugePickView.xib in Resources */,
 				DC5D07E81D17010F00E14870 /* Main.storyboard in Resources */,
@@ -308,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */,
+				4AA6A6B31D38E5EC006B5394 /* photosViewController.m in Sources */,
 				DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */,
 				DC414DA01D22B03400389C8D /* langueButton.m in Sources */,
 				DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */,
@@ -322,6 +341,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4A02B1371D37A77500683C71 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A02B1361D37A77500683C71 /* Base */,
+				4A02B1391D37A78E00683C71 /* en */,
+				4A02B13A1D37A79F00683C71 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4AA44F721D37AA2A0042BC46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA44F711D37AA2A0042BC46 /* Base */,
+				4AA44F731D37AA2C0042BC46 /* en */,
+				4AA44F741D37AA2E0042BC46 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		DC5D07E61D17010F00E14870 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

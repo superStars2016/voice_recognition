@@ -15,6 +15,7 @@
     JSContext *_context;
     
 }
+@property (weak, nonatomic) IBOutlet UIButton *button;
 - (IBAction)btnClickShow:(id)sender;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property(strong,nonatomic) VoiceView *voiceView;
@@ -24,6 +25,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.button setTitle:NSLocalizedString(@"title", nil) forState:UIControlStateNormal];
     
     VoiceView *voice=[VoiceView sharedVoiceView];
     _voiceView=voice;

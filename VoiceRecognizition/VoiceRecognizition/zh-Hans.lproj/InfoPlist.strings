@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  VoiceRecognizition
+
+  Created by naver on 16/7/14.
+  Copyright © 2016年 lander. All rights reserved.
+*/
+"CFBundleDisplayName" = "语音识别";
+// 3D touch 相关
+"ShortCutRecentlService" = "近期使用项目";
+"ShortCutRecentlTranslator" = "翻译器";
+"ShortCutRecentlVoiceTrans" = "日韩语音翻译";
+"ShortCutRecentlWebTrans" = "网站翻译";

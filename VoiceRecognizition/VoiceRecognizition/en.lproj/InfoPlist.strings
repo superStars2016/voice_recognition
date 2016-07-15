@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  VoiceRecognizition
+
+  Created by naver on 16/7/14.
+  Copyright © 2016年 lander. All rights reserved.
+*/
+"CFBundleDisplayName" = "voiceSearch";
+
+// 3D touch 相关
+"ShortCutRecentlService" = "Recently used service";
+"ShortCutRecentlTranslator" = "Translate";
+"ShortCutRecentlVoiceTrans" = "Japanese Voice translator";
+"ShortCutRecentlWebTrans" = "Website translator";

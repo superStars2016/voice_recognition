@@ -41,5 +41,41 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string></string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>ShortCutRecentlService</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>UITouch.RecentlService</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string></string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>ShortCutRecentlTranslator</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>UITouch.Translator</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string></string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>ShortCutRecentlVoiceTrans</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>UITouch.VoiceTrans</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string></string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>ShortCutRecentlWebTrans</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>UITouch.WebTrans</string>
+        </dict>
+    </array>
+
 </dict>
 </plist>
