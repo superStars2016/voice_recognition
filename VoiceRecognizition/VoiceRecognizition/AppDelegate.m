@@ -18,12 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
-    UIApplicationShortcutItem *item =[[UIApplicationShortcutItem alloc]initWithType:@"two"localizedTitle:@"第二个标签"localizedSubtitle:@"看我哦"icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLocation] userInfo:nil];
-    
-    //添加
-    
-    [UIApplication sharedApplication].shortcutItems =@[item];
+ 
     
     
     return YES;

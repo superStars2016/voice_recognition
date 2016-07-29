@@ -178,6 +178,9 @@ _showCircle=YES;
     } completion:^(BOOL finished) {
         self.hidden=YES;
     }];
+    if ([self.delegate respondsToSelector:@selector(VoiceViewDismissed:)]) {
+        [self.delegate VoiceViewDismissed:self];
+    }
 }
 #pragma mark langugePickView Delegate
 -(void)langugePickView:(langugePickView *)langugePickView didSelectLangeue:(NSString *)languegeString langueCode:(NSString *)langueCode{

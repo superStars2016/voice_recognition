@@ -33,4 +33,6 @@
 @protocol VoiceViewDelegate <NSObject>
 @required
 -(void)VoiceView:(VoiceView *)voiceView didFinishedVoiceRegenizeWithData:(NSString *)strData;
+
+-(void)VoiceViewDismissed:(VoiceView *)voiceView;
 @end
