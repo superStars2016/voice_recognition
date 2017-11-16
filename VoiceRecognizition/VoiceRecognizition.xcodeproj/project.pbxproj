@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A02B1351D37A77500683C71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A02B1371D37A77500683C71 /* Localizable.strings */; };
+		4A1CA0871D6ACB9000A64E1D /* NDRecognizeResultTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA0861D6ACB9000A64E1D /* NDRecognizeResultTextView.m */; };
+		4A1CA08A1D6ACBD400A64E1D /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CA0891D6ACBD400A64E1D /* ViewController2.m */; };
+		4A4C1D3D1D6D3DBB00ADA755 /* NDTextAttcahment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C1D3C1D6D3DBB00ADA755 /* NDTextAttcahment.m */; };
 		4AA44F701D37AA2A0042BC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA44F721D37AA2A0042BC46 /* InfoPlist.strings */; };
 		4AA6A6B31D38E5EC006B5394 /* photosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6A6B21D38E5EC006B5394 /* photosViewController.m */; };
+		4AF78F1F1D6BE54F0080EBF1 /* NDResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF78F1E1D6BE54F0080EBF1 /* NDResultViewController.m */; };
 		D6A7AAA2764EE8287DE697F0 /* libPods-VoiceRecognizition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 321ECD2B426872CCF55C0E59 /* libPods-VoiceRecognizition.a */; };
 		DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */; };
 		DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = DC414D981D22AFE400389C8D /* VoiceWebJsCore.m */; };
@@ -35,12 +39,20 @@
 		4A02B1361D37A77500683C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4A02B1391D37A78E00683C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4A02B13A1D37A79F00683C71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4A1CA0851D6ACB9000A64E1D /* NDRecognizeResultTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDRecognizeResultTextView.h; path = ../NDRecognizeResultTextView.h; sourceTree = "<group>"; };
+		4A1CA0861D6ACB9000A64E1D /* NDRecognizeResultTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDRecognizeResultTextView.m; path = ../NDRecognizeResultTextView.m; sourceTree = "<group>"; };
+		4A1CA0881D6ACBD400A64E1D /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4A1CA0891D6ACBD400A64E1D /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4A4C1D3B1D6D3DBB00ADA755 /* NDTextAttcahment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTextAttcahment.h; sourceTree = "<group>"; };
+		4A4C1D3C1D6D3DBB00ADA755 /* NDTextAttcahment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTextAttcahment.m; sourceTree = "<group>"; };
 		4AA44F711D37AA2A0042BC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AA44F731D37AA2C0042BC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AA44F741D37AA2E0042BC46 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4AA44F761D37ADFE0042BC46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA6A6B11D38E5EC006B5394 /* photosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photosViewController.h; sourceTree = "<group>"; };
 		4AA6A6B21D38E5EC006B5394 /* photosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = photosViewController.m; sourceTree = "<group>"; };
+		4AF78F1D1D6BE54F0080EBF1 /* NDResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDResultViewController.h; sourceTree = "<group>"; };
+		4AF78F1E1D6BE54F0080EBF1 /* NDResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDResultViewController.m; sourceTree = "<group>"; };
 		DC414D931D22AF8300389C8D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		DC414D941D22AF8300389C8D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		DC414D971D22AFE400389C8D /* VoiceWebJsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceWebJsCore.h; sourceTree = "<group>"; };
@@ -152,12 +164,20 @@
 		DC5D07DC1D17010F00E14870 /* VoiceRecognizition */ = {
 			isa = PBXGroup;
 			children = (
+				4A1CA0851D6ACB9000A64E1D /* NDRecognizeResultTextView.h */,
+				4A1CA0861D6ACB9000A64E1D /* NDRecognizeResultTextView.m */,
 				DC7A18A31D170CC40072BE6B /* Classes */,
 				DC7A189A1D17087C0072BE6B /* Voice */,
 				DC5D07E01D17010F00E14870 /* AppDelegate.h */,
 				DC5D07E11D17010F00E14870 /* AppDelegate.m */,
+				4AF78F1D1D6BE54F0080EBF1 /* NDResultViewController.h */,
+				4AF78F1E1D6BE54F0080EBF1 /* NDResultViewController.m */,
 				DC5D07E31D17010F00E14870 /* ViewController.h */,
+				4A4C1D3B1D6D3DBB00ADA755 /* NDTextAttcahment.h */,
+				4A4C1D3C1D6D3DBB00ADA755 /* NDTextAttcahment.m */,
 				DC5D07E41D17010F00E14870 /* ViewController.m */,
+				4A1CA0881D6ACBD400A64E1D /* ViewController2.h */,
+				4A1CA0891D6ACBD400A64E1D /* ViewController2.m */,
 				DC5D07E61D17010F00E14870 /* Main.storyboard */,
 				4AA6A6B11D38E5EC006B5394 /* photosViewController.h */,
 				4AA6A6B21D38E5EC006B5394 /* photosViewController.m */,
@@ -205,12 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC5D07F11D17010F00E14870 /* Build configuration list for PBXNativeTarget "VoiceRecognizition" */;
 			buildPhases = (
-				98DFCA6DD36EAE86CE7E4B99 /* 📦 Check Pods Manifest.lock */,
+				98DFCA6DD36EAE86CE7E4B99 /* [CP] Check Pods Manifest.lock */,
 				DC5D07D61D17010F00E14870 /* Sources */,
 				DC5D07D71D17010F00E14870 /* Frameworks */,
 				DC5D07D81D17010F00E14870 /* Resources */,
-				2D56CB070982E4666288F107 /* 📦 Embed Pods Frameworks */,
-				F9FCC70A9445787AA1C0C800 /* 📦 Copy Pods Resources */,
+				2D56CB070982E4666288F107 /* [CP] Embed Pods Frameworks */,
+				F9FCC70A9445787AA1C0C800 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,14 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D56CB070982E4666288F107 /* 📦 Embed Pods Frameworks */ = {
+		2D56CB070982E4666288F107 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,14 +308,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognizition/Pods-VoiceRecognizition-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98DFCA6DD36EAE86CE7E4B99 /* 📦 Check Pods Manifest.lock */ = {
+		98DFCA6DD36EAE86CE7E4B99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +323,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F9FCC70A9445787AA1C0C800 /* 📦 Copy Pods Resources */ = {
+		F9FCC70A9445787AA1C0C800 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,13 +348,17 @@
 				DC414D951D22AF8300389C8D /* UIView+AutoLayout.m in Sources */,
 				4AA6A6B31D38E5EC006B5394 /* photosViewController.m in Sources */,
 				DC414D991D22AFE400389C8D /* VoiceWebJsCore.m in Sources */,
+				4A4C1D3D1D6D3DBB00ADA755 /* NDTextAttcahment.m in Sources */,
 				DC414DA01D22B03400389C8D /* langueButton.m in Sources */,
+				4AF78F1F1D6BE54F0080EBF1 /* NDResultViewController.m in Sources */,
 				DC7A18A61D170CE50072BE6B /* UIView+AutoLayout.m in Sources */,
+				4A1CA08A1D6ACBD400A64E1D /* ViewController2.m in Sources */,
 				DC5D07E51D17010F00E14870 /* ViewController.m in Sources */,
 				DC5D07E21D17010F00E14870 /* AppDelegate.m in Sources */,
 				DC5D07DF1D17010F00E14870 /* main.m in Sources */,
 				DC414DA71D22BA0700389C8D /* langugePickView.m in Sources */,
 				DC414DA11D22B03400389C8D /* VoiceView.m in Sources */,
+				4A1CA0871D6ACB9000A64E1D /* NDRecognizeResultTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
